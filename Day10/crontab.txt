@@ -1,3 +1,17 @@
+Steps to Schedule with cron
+1)Make the script executable:
+
+chmod +x automate_backup_users.sh
+
+2)Edit crontab: Open the crontab editor:
+
+crontab -e
+3)Add the cron job: Schedule the script to run daily at 2 AM:
+
+0 2 * * * /path/to/automate_backup_users.sh
+4)Save and exit.
+------------------------------------------------------
+Using Crontab
 1. Check if Cron is Installed
 Most Linux distributions come with cron pre-installed. Check if it’s running with:
 
