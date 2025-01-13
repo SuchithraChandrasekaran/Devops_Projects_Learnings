@@ -1,0 +1,4 @@
+{
+    "name": "DevOps",
+    "tools": ["Docker", "Kubernetes", "Terraform"]
+}
