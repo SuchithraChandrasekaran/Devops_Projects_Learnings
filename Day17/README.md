@@ -52,6 +52,22 @@ Steps
 
 	After the image is built, run the container with this command:
 		docker run custom-docker-image
+--------------------------------------------------------
+
+
+Here's how it works:
+--------------------------------------------------------
+The hello.sh file should be present in your project folder (i.e., the folder where the Dockerfile is located) for it to be copied into the /app folder inside the container during the build process.
+
+	Local Directory (Windows/VS Code):
+
+		The hello.sh file should be in the same directory as your Dockerfile on your local machine (i.e., in your custom-docker folder).
+
+	Docker Container:
+
+		During the Docker build process, the COPY hello.sh /app/ command in the Dockerfile will copy the hello.sh script from your local directory to the /app directory inside the Docker container.
+
+This is how the file will be available inside the container to execute.
 
 Troubleshooting
 -------------------
