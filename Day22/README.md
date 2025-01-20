@@ -5,7 +5,9 @@ Task 1: Work with Docker Volumes
 
         docker volume create my_volume
 
-    Verify: docker volume ls
+    Verify: 
+
+        docker volume ls
 
 2) Use the Volume in a Container:
 
