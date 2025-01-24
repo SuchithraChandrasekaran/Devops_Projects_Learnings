@@ -33,7 +33,7 @@ Webhook Setup:
 
 A GitHub webhook is configured to trigger Jenkins builds on a push event.
 
-The payload URL is set to the Jenkins server (http://<my public ip>:8080/github-webhook/)
+The payload URL is set to the Jenkins server (http://my_public_ip:8080/github-webhook/)
 
 Jenkins Job:
 ----------------
