@@ -1,4 +1,4 @@
-## AWS Account creation & Issues Faced in Creating OCI and GCP Accounts
+## AWS Account creation & Issues Faced in Creating OCI and GCP Account
 
 ### OCI (Oracle Cloud Infrastructure) Account Issues:
 1. **Credit Card Verification Failure** - Some banks block international transactions, causing verification failures.
