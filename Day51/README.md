@@ -18,3 +18,19 @@
 10. Click **Next: Review** → **Click Create user**
 11. Save the **Access Key ID** and **Secret Access Key**.
 
+## 2. Configure AWS CLI with IAM User
+
+### Run the following command:
+
+   aws configure
+
+   Enter:
+
+      Access Key ID: (From Step 1)
+
+      Secret Access Key: (From Step 1)
+
+      Region: (e.g., us-east-1)
+
+      Output format: (default json)
+
