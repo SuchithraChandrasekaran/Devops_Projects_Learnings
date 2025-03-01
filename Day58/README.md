@@ -15,3 +15,16 @@ install the AWS CLI
   Download and run the AWS CLI MSI installer for Windows (64-bit):
 
     https://awscli.amazonaws.com/AWSCLIV2.msi
+
+Step 2: Configure AWS Credentials
+------
+
+2.1 Create IAM User 
+
+        Go to AWS IAM Console
+
+    Create a new IAM user with Programmatic access.
+
+    Attach the "AmazonEC2FullAccess" policy.
+
+    Copy Access Key ID and Secret Access Key.
