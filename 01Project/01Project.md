@@ -60,4 +60,6 @@ logs_archive_YYYYMMDD_HHMMSS.tar.gz
 
 ---
 
-This tool will help in understanding file handling, compression, and CLI tool development
+## Screenshot
+
+![My Screenshot](images/01_proj.jpg)
