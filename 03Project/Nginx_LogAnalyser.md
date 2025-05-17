@@ -20,5 +20,10 @@ This script uses standard Unix tools/cmds:
 
 ---
 
+## Screenshot
+
+![My Screenshot](images/03_proj_ss1.jpg)
+
+
 
 
