@@ -4,6 +4,11 @@ A command-line tool to archive logs by compressing them with date and time, stor
 
 ---
 
+## Reference
+
+This project is a part of my hands-on DevOps learning, guided by the [DevOps Roadmap]
+https://roadmap.sh/projects/server-stats
+
 ## Project Overview
 
 This tool compresses logs from a specified directory on a set schedule and stores the compressed archive in a new directory. It is especially useful for managing log files on Unix-based systems, where logs are commonly stored in `/var/log`.
