@@ -30,9 +30,24 @@ ansible-cm/
     │   ├── tasks/
     │   │   └── main.yml
     │   └── files/
-    │       └── website.tar.gz   # Replace with your static site tarball
+    │       └── website.tar.gz   # static site tarball
     └── ssh/                     # SSH role: manage public key access
         ├── tasks/
         │   └── main.yml
         └── files/
-            └── id_rsa.pub       # Your SSH public key to add
+            └── id_rsa.pub       # SSH public key
+
+## Screenshots and Steps
+
+### Step 1: Set up WSL (Windows Subsystem for Linux)
+
+Download Ubuntu in local system and install ansible
+![Step 1 Screenshot](images/04_ConfigMgmt_Ansible_Install.jpg)
+
+### Step 2: Launch AWS EC2 Instance
+![Step 2 Screenshot](images/Launch_instance.jpg)
+
+### Step 3: Download `.pem` Key and SSH into EC2
+```bash
+ ssh -i ansible-key.pem ubuntu@54.158.161.237
+![Step 3 Screenshot](images/Local_ubuntu_to_EC2_Ubuntu.jpg)
