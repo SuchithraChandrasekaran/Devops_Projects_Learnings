@@ -36,7 +36,7 @@ ansible-cm/
         │   └── main.yml
         └── files/
             └── id_rsa.pub       # SSH public key
-
+```
 ## Screenshots and Steps
 
 ### Step 1: Set up WSL (Windows Subsystem for Linux)
@@ -51,7 +51,9 @@ Download Ubuntu in local system and install ansible
 
 ### Step 3: Download `.pem` Key and SSH into EC2
 
-
 ```bash
  ssh -i ansible-key.pem ubuntu@54.158.161.237
+
+```
+![ssh into EC2](images/Local_ubuntu_to_EC2_Ubuntu.jpg)
 
