@@ -1,0 +1,14 @@
+---
+- name: Ensure ~/.ssh exists
+  file:
+          path: /home/{{ ansible_user }}/.ssh
+          state: directory
+          owner: "{{ ansible_user }}"
+          group: "{{ ansible_user }}"
+          mode: "0700"
+
+- name: Add developer public key
+  authorized_key:
+          user: "{{ ansible_user }}"
+          state: present
+          key: "{{ lookup('file', 'id_rsa.pub') }}"
