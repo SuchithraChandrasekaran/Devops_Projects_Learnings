@@ -1,6 +1,6 @@
 ## Key Learnings
 1. **Linux Basics**:
-   - **Commands Learned**:
+   - **Commands Learnt**:
      - `ls` - Lists files and directories.
      - `pwd` - Prints the current working directory.
      - `cd` - Changes the directory.
