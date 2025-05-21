@@ -1,6 +1,6 @@
 # Log Archive Tool
 
-A command-line tool to archive logs by compressing them with date and time, storing them in a new directory. This helps keep your system clean by removing old logs while maintaining compressed archives for future reference.
+A command-line tool to archive logs by compressing them with date and time, storing them in a new directory. This helps keep the system clean by removing old logs while maintaining compressed archives for future reference.
 
 ---
 
