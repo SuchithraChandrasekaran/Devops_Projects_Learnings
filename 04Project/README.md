@@ -107,11 +107,11 @@ ansible-playbook -i inventory.ini setup.yml --tags "nginx"
 
 - systemctl status nginx shows active
 
-![nginxRole](images/Verification_nginx_role1.jpg)
+![nginxRole](images/Verification_nginx_role_1.jpg)
 
 - Default NGINX page
 
-![nginxRole](images/Verification_nginx_role2.jpg)
+![nginxRole](images/Verification_nginx_role_2.jpg)
 
 ### Step 7: App Role – Deploy Static Website
 
