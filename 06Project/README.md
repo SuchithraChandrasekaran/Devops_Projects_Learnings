@@ -1,1 +1,1 @@
-### Project 06: [Node.js Service Deployment](https://github.com/SuchithraChandrasekaran/Node.js-Service-Deployment.git)
+### Project 06: [nodejs_service_deployment](https://github.com/SuchithraChandrasekaran/nodejs_service_deployment.git)
