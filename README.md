@@ -71,3 +71,7 @@ This Repo contain projects as a part of hands-on DevOps learning, guided by the 
 
 https://github.com/LondheShubham153/90DaysOfDevOps.git
 
+##  Important: Stop the EC2 Instance to Avoid Charges
+
+After the testing or deployment is done **remember to stop the EC2 instance** to avoid incurring ongoing charges from AWS
+
