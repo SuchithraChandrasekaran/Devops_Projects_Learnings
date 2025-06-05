@@ -67,4 +67,6 @@ logs_archive_YYYYMMDD_HHMMSS.tar.gz
 
 ## Screenshot
 
-![My Screenshot](images/01_proj.jpg)
+![My Screenshot](images/execution.jpg)
+
+![My Screenshot](images/log_archive.jpg)
