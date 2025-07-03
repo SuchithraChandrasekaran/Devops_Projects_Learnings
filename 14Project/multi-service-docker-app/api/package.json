@@ -35,6 +35,4 @@
     "mongodb",
     "redis"
   ],
-  "author": "Your Name",
-  "license": "MIT"
 }
